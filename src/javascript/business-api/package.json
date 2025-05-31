@@ -1,0 +1,30 @@
+{
+  "name": "business-app",
+  "version": "1.0.0",
+  "description": "simple business app for employee management",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --inspect src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "wesleybertipaglia",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "bcryptjs": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "fastify-auth": "^1.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/mongodb": "^4.0.6",
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }  
+}
