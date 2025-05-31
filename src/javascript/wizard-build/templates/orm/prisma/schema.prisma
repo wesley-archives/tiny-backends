@@ -1,0 +1,21 @@
+// prisma/schema.prisma
+
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = env("DATABASE_PROVIDER")
+  url      = env("DATABASE_URL")
+}
+
+model Spell {
+  id         Int      @id @default(autoincrement())
+  name       String
+  incantation String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
