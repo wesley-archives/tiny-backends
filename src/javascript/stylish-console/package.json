@@ -1,0 +1,25 @@
+{
+  "name": "stylish-console",
+  "version": "1.0.2",
+  "description": "A styled console logger",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleybertipaglia/stylish-console.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "style"
+  ],
+  "author": "wesleybertipaglia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesleybertipaglia/stylish-console/issues"
+  },
+  "homepage": "https://github.com/wesleybertipaglia/stylish-console#readme"
+}
